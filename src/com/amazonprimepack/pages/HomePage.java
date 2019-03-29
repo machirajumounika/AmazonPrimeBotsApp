@@ -1,4 +1,4 @@
-package com.amazonprimepack.factory;
+package com.amazonprimepack.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;

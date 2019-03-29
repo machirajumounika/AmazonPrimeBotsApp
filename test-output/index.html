@@ -2,9 +2,10 @@
 
 <html>
   <head>
+  <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
     <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
@@ -140,7 +141,7 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;My Test Suite&quot;&gt;
-  &lt;test name=&quot;My Test&quot; preserve-order=&quot;false&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;My Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.amazonprimepack.TestBase&quot;/&gt;
     &lt;/classes&gt;
@@ -186,12 +187,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'test_Home_Page')
 data.setCell(0, 2, 'com.amazonprimepack.TestBase')
-data.setCell(0, 3, 49688);
+data.setCell(0, 3, 51278);
 window.suiteTableData['My_Test_Suite']= { tableData: data, tableDiv: 'times-div-My_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 49 seconds</span>
+              <span class="suite-total-time">Total running time: 51 seconds</span>
               <div id="times-div-My_Test_Suite">
               </div> <!-- times-div-My_Test_Suite -->
             </div> <!-- times-div -->
@@ -224,19 +225,19 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">419 ms</span>
+                <span class="method-start">71367 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test_Home_Page</span>
-                <span class="method-start">11469 ms</span>
+                <span class="method-start">123706 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">getResult([TestResult name=test_Home_Page status=SUCCESS method=TestBase.test_Home_Page()[pri:0, instance:com....)</span>
-                <span class="method-start">61158 ms</span>
+                <span class="method-start">174987 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">endReport</span>
-                <span class="method-start">62148 ms</span>
+                <span class="method-start">175920 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

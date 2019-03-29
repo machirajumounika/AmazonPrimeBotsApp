@@ -27,9 +27,9 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import com.amazonprimepack.factory.AddToListPage;
-import com.amazonprimepack.factory.HomePage;
-import com.amazonprimepack.factory.LoginPage;
+import com.amazonprimepack.pages.AddToListPage;
+import com.amazonprimepack.pages.HomePage;
+import com.amazonprimepack.pages.LoginPage;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
