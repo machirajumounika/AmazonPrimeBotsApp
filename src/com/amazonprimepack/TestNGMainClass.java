@@ -1,5 +1,7 @@
 package com.amazonprimepack;
 
+import javax.swing.JOptionPane;
+
 import org.testng.TestNG;
 
 public class TestNGMainClass {
@@ -10,6 +12,7 @@ public class TestNGMainClass {
 		testSuite.setDefaultSuiteName("My Test Suite");
 		testSuite.setDefaultTestName("My Test");
 		testSuite.run();
+		JOptionPane.showMessageDialog(null, "Hello - " + "Show Add to List items is cmpleted");
 	}
 
 }

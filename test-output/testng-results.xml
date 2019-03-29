@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="My Test Suite" duration-ms="59577" started-at="2019-03-29T01:26:15Z" finished-at="2019-03-29T01:27:15Z">
+  <suite name="My Test Suite" duration-ms="62967" started-at="2019-03-29T02:53:56Z" finished-at="2019-03-29T02:54:59Z">
     <groups>
     </groups>
-    <test name="My Test" duration-ms="59577" started-at="2019-03-29T01:26:15Z" finished-at="2019-03-29T01:27:15Z">
+    <test name="My Test" duration-ms="62967" started-at="2019-03-29T02:53:56Z" finished-at="2019-03-29T02:54:59Z">
       <class name="com.amazonprimepack.TestBase">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.amazonprimepack.TestBase@27abe2cd]" name="beforeTest" is-config="true" duration-ms="308" started-at="2019-03-28T21:26:15Z" finished-at="2019-03-28T21:26:16Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.amazonprimepack.TestBase@27abe2cd]" name="beforeTest" is-config="true" duration-ms="408" started-at="2019-03-28T22:53:56Z" finished-at="2019-03-28T22:53:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.amazonprimepack.TestBase@27abe2cd]" name="setup" is-config="true" duration-ms="8197" started-at="2019-03-28T21:26:16Z" finished-at="2019-03-28T21:26:24Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.amazonprimepack.TestBase@27abe2cd]" name="setup" is-config="true" duration-ms="11050" started-at="2019-03-28T22:53:56Z" finished-at="2019-03-28T22:54:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test_Home_Page()[pri:0, instance:com.amazonprimepack.TestBase@27abe2cd]" name="test_Home_Page" duration-ms="49577" started-at="2019-03-28T21:26:24Z" finished-at="2019-03-28T21:27:13Z">
+        <test-method status="PASS" signature="test_Home_Page()[pri:0, instance:com.amazonprimepack.TestBase@27abe2cd]" name="test_Home_Page" duration-ms="49688" started-at="2019-03-28T22:54:07Z" finished-at="2019-03-28T22:54:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Home_Page -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.amazonprimepack.TestBase@27abe2cd]" name="getResult" is-config="true" duration-ms="879" started-at="2019-03-28T21:27:13Z" finished-at="2019-03-28T21:27:14Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.amazonprimepack.TestBase@27abe2cd]" name="getResult" is-config="true" duration-ms="986" started-at="2019-03-28T22:54:57Z" finished-at="2019-03-28T22:54:58Z">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:com.amazonprimepack.TestBase@27abe2cd]" name="endReport" is-config="true" duration-ms="600" started-at="2019-03-28T21:27:14Z" finished-at="2019-03-28T21:27:15Z">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.amazonprimepack.TestBase@27abe2cd]" name="endReport" is-config="true" duration-ms="817" started-at="2019-03-28T22:54:58Z" finished-at="2019-03-28T22:54:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
