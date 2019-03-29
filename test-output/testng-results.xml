@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="My Test Suite" duration-ms="59577" started-at="2019-03-29T01:26:15Z" finished-at="2019-03-29T01:27:15Z">
+    <groups>
+    </groups>
+    <test name="My Test" duration-ms="59577" started-at="2019-03-29T01:26:15Z" finished-at="2019-03-29T01:27:15Z">
+      <class name="com.amazonprimepack.TestBase">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.amazonprimepack.TestBase@27abe2cd]" name="beforeTest" is-config="true" duration-ms="308" started-at="2019-03-28T21:26:15Z" finished-at="2019-03-28T21:26:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.amazonprimepack.TestBase@27abe2cd]" name="setup" is-config="true" duration-ms="8197" started-at="2019-03-28T21:26:16Z" finished-at="2019-03-28T21:26:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_Home_Page()[pri:0, instance:com.amazonprimepack.TestBase@27abe2cd]" name="test_Home_Page" duration-ms="49577" started-at="2019-03-28T21:26:24Z" finished-at="2019-03-28T21:27:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Home_Page -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.amazonprimepack.TestBase@27abe2cd]" name="getResult" is-config="true" duration-ms="879" started-at="2019-03-28T21:27:13Z" finished-at="2019-03-28T21:27:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_Home_Page status=SUCCESS method=TestBase.test_Home_Page()[pri:0, instance:com.amazonprimepack.TestBase@27abe2cd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.amazonprimepack.TestBase@27abe2cd]" name="endReport" is-config="true" duration-ms="600" started-at="2019-03-28T21:27:14Z" finished-at="2019-03-28T21:27:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.amazonprimepack.TestBase -->
+    </test> <!-- My Test -->
+  </suite> <!-- My Test Suite -->
+</testng-results>
