@@ -12,7 +12,7 @@ public class TestNGMainClass {
 		testSuite.setDefaultSuiteName("My Test Suite");
 		testSuite.setDefaultTestName("My Test");
 		testSuite.run();
-		JOptionPane.showMessageDialog(null, "Hello - " + "Show Add to List items is completed");
+		JOptionPane.showMessageDialog(null, "Output - " + "Created list is displayed");
 	}
 
 }

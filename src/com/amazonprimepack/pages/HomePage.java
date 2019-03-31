@@ -6,10 +6,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
+import com.amazonprimepack.TestBase;
+
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 
-public class HomePage {
+public class HomePage extends TestBase {
 	private WebDriver driver;
 	private String searchTextBox;
 	@FindBy(xpath="//input[@type='submit']")
@@ -32,7 +35,7 @@ public class HomePage {
 		return wishListButton.getTagName();
 	}
 
-	public void testSearchTextBox(String text) {
+	public void testSearchTextBox(String text) throws Exception {
 		wishListButton.sendKeys(text);
 		submitButton.click();
 	}
@@ -46,7 +49,7 @@ public class HomePage {
 		Action sendPagedown = actions.sendKeys(Keys.PAGE_DOWN).build();
 		sendPagedown.perform();
 		try {
-			Thread.sleep(3000);
+			Thread.sleep(4000);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

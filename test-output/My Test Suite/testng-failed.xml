@@ -8,6 +8,7 @@
           <include name="setup"/>
           <include name="test_Home_Page"/>
           <include name="beforeTest"/>
+          <include name="endReport"/>
         </methods>
       </class> <!-- com.amazonprimepack.TestBase -->
     </classes>

@@ -9,6 +9,8 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import com.amazonprimepack.TestBase;
+
 public class AddToListPage {
 	WebDriver driver;
 	@FindBy(className="s-image")
@@ -28,19 +30,6 @@ public class AddToListPage {
 	
 	@FindBy(xpath="//*[@id=\"nav-link-accountList\"]")
 	WebElement accounts;
-	
-	//*[@id="nav-link-accountList"]/span[2]
-	
-	//header[@class='nav-opt-sprite nav-locale-us nav-lang-en nav-ssl nav-rec'/following::div[@id='nav-tools]/following::a[@id='nav-link-accountList']/span[2]
-	
-	 /*Neelima:-------------------------------------
-		
-	.//header[@class='nav-opt-sprite nav-locale-us nav-lang-en nav-ssl nav-rec']/div[@id='navbar']/div[2]/div[2]/div[1]/a[2]/span[contains(@class, 'nav-line-2')]
-	
-	.//header[@class='nav-opt-sprite nav-locale-us nav-lang-en nav-ssl nav-rec']/div[@id='navbar']/div[2]/div[2]/div[1]/a[2]/span[text()= 'Account & Lists']
-	
-	//*[@id="nav-link-accountList"]/span[4]
---------------------------------------------------------*/	
 	
 	
 	private Actions actions;
@@ -64,6 +53,7 @@ public class AddToListPage {
 	public void clickOnImage() {
 
 		clickOnImage.click();
+				
 	}
 
 	public void saveToWatchList() {
